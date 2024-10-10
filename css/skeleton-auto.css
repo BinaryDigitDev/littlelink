@@ -90,7 +90,7 @@ html {
   color-scheme: light dark;
 }
 body {
-  font-size: 18px;
+  font-size:18px;
   line-height: 24px;
   font-weight: 400;
   font-family: "Press Start 2P", "Open Sans", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial,
@@ -105,7 +105,7 @@ h1 {
   font-weight: 800;
 }
 h1 {
-  font-size: 24px;
+  font-size: 20px;
   line-height: 64px;
   letter-spacing: 0;
 }
@@ -113,7 +113,7 @@ h1 {
 /* Larger than phablet */
 @media (min-width: 550px) {
   h1 {
-    font-size: 48px;
+    font-size: 44px;
     line-height: 96px;
   }
 }
@@ -171,6 +171,7 @@ pre > code {
 button,
 .button {
   margin-bottom: 1rem;
+  font-family: "Open Sans", sans-serif;
 }
 input,
 textarea,
